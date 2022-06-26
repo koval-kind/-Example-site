@@ -4,12 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600;700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
     <title>Site</title>
   </head>
   <body>
-    <header>
+    <div class="wrapper">
+      <header class="header">
       <nav class="navigation">
-        <ul class="navigation-list">
+        <ul class="list navigation-list">
           <li class="navigation-item">
             <a href="./about.html" class="navigation-link">About us</a>
           </li>
@@ -26,39 +34,59 @@
       </nav>
       <a href="" class="logo"> Marft<span class="logo-dot">.</span> </a>
       <div class="socials">
-        <a href="">
+        <a href="" class="social-link">
           <img src="./img/Goggle.svg" alt="" class="social-img" />
         </a>
-        <a href="">
+        <a href="" class="social-link">
           <img src="./img/icon.svg" alt="" class="social-img" />
         </a>
-        <a href="">
+        <a href="" class="social-link">
           <img src="./img/Instagram.svg" alt="" class="social-img" />
         </a>
       </div>
-    </header>
+    </header></div>
+   
     <main>
       <section class="hero">
-        <h1 class="hero-title">Increase your performance on social media</h1>
-        <p class="hero-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non
-          nisl tincidunt ut elementum turpis.
-        </p>
-        <button class="hero-btn">Get Started</button>
-        <img src="./img/Rectangle 581.png" alt="" class="hero-img" />
-        <img src="./img/Rectangle 583.png" alt="" class="hero-img" />
+        <div class="content">
+          <div class="hero-conteiner hero-left-size">
+          <h1 class="hero-title">Increase your performance on social media</h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non
+            nisl tincidunt ut elementum turpis.
+          </p>
+          <button class="hero-btn">Get Started</button>
+        </div>
+        <div class="hero-conteiner hero-left-right">
+          <img src="./img/Rectangle 581.png" alt="" class="hero-img" />
+          <img src="./img/Rectangle 583.png" alt="" class="hero-img" />
+        </div>
+      </div>
+        
+       
       </section>
       <section class="clients">
-        <h2 class="clients-title">Trusted by over 10k clients & brands</h2>
-        <p class="clients-text">
-          Lorem ipsum dolor sit amet, solor ut adipiscing elit.
-        </p>
-        <img src="./img/googlr.png" alt="" class="client-img" width="" height=""/>
-        <img src="./img/slack.png" alt="" class="client-img"/>
-        <img src="./img/ipsum.png" alt="" class="client-img"/>
-        <img src="./img/netflix.png" alt="" class="client-img"/>
-        <img src="./img/intercom.png" alt="" class="client-img"/>
-        <img src="./img/logoimpsum.png" alt="" class="client-img"/>
+        <div class="content">
+          <div class="clients-left-size">
+            <div class="left-size-content">
+              <h2 class="clients-title">Trusted by over 10k clients & brands</h2>
+            <p class="clients-text">
+              Lorem ipsum dolor sit amet, solor ut adipiscing elit.
+            </p>
+          </div>
+            
+        </div>
+        <div class="clients-right-size">
+          <img src="./img/googlr.png" alt="" class="client-img" width="" height="" />
+        <img src="./img/slack.png" alt="" class="client-img" />
+        <img src="./img/ipsum.png" alt="" class="client-img" />
+        <img src="./img/netflix.png" alt="" class="client-img" />
+        <img src="./img/intercom.png" alt="" class="client-img" />
+        <img src="./img/logoimpsum.png" alt="" class="client-img" />
+      </div>
+        
+      </div>
+        
       </section>
       <section id="service" class="discription">
         <img src="/img/description.png" alt="description" class="description-img" width="598" height="653">
